@@ -1,0 +1,136 @@
+.forma{
+  background: white;
+  height: 688px;
+  width: 476px;
+  margin: 0px auto;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.high{
+  text-align: center;
+}
+.low{
+  text-align: center;
+}
+form{
+  position: relative;
+}
+
+
+
+.addCross{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 14px;
+  right: 0px;
+  z-index: 3;
+}
+
+.line_rotate90{
+  display: block;
+  height: 1px;
+  background-color:black;
+  position: absolute;
+  top:50%;
+  width: 20px;
+  
+}
+.line_rotate90:first-child{
+  transform: translateY(-50%) rotate(90deg);
+
+}
+
+.buttonPlus{
+  top:10px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+}
+
+
+.inp{
+  width: 460px;
+  height: 45px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 12px;
+  padding: 0px;
+  align-items: center;
+  text-indent: 12px;
+  border: 1px solid #989898;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.inp:hover{
+  filter: brightness(80%);
+}
+
+
+
+.field{
+  width: 460px;
+  border: 1px solid #989898;
+  margin: 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  min-height: 50px;
+}
+
+
+
+.field p{
+  padding-left: 25px;
+  margin-right: 25px;
+  overflow-x: hidden;
+}
+
+.radioButton{
+  top: 16px;
+  left: 2px;  
+  position: absolute;
+ }
+
+.close{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 5px;
+  right: -10px;
+  z-index: 3;
+}
+
+.line_rotate45{
+  display: block;
+  height: 1px;
+  background-color:black;
+  position: absolute;
+  top:50%;
+  width: 20px;
+}
+
+.line_rotate45:first-child{
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.line_rotate45:last-child{
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.btn_close{
+  top:12px;
+  right: 8px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  opacity: 0;
+  z-index: 3;
+}
